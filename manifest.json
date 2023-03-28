@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "GPT-styler",
+  "version": "9001",
+  "description": "Why have a boring Chat-GPT UI?",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/chat/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["storage"]
+}
