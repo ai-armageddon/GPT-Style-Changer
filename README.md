@@ -38,10 +38,5 @@ If you don't want to use a SASS compiler, you can just edit the plain CSS styles
 
 Once styles are updated, make sure to update your package in Chrome.
 
-
-## Feedback or Requests
-@jeremyboulerice on Twitter
-hi@jeremyboulerice.com
-
-## Buy Me A Coffee (RedBull)
-http://buymeacoffee.com/herculeanHacker
+Twitter: @jeremyboulerice
+E: hi@jeremyboulerice.com
