@@ -14,3 +14,6 @@ document.addEventListener('keydown', function(event) {
         toggleBtn.click();
     }
 });
+
+
+console.log('Hi there..!');
