@@ -7,6 +7,7 @@
 }
 
 /* sidebars */
+h3.h-9.pb-2.pt-3.px-3.text-xs.text-gray-500.font-medium.text-ellipsis.overflow-hidden.break-all.bg-gray-50.dark\:bg-gray-900,
 .flex.h-full.min-h-0.flex-col,
 .scrollbar-trigger.flex.h-full.w-full.flex-1.items-start.border-white\/20,
 div#headlessui-dialog-panel-\:re\: {
@@ -15,8 +16,21 @@ div#headlessui-dialog-panel-\:re\: {
 }
 
 .absolute.inset-y-0.right-0.w-8.z-10.bg-gradient-to-l.from-gray-900,
-.absolute.inset-y-0.right-0.w-8.z-10.bg-gradient-to-l.from-gray-800 {
+.absolute.inset-y-0.right-0.w-8.z-10.bg-gradient-to-l.from-gray-800,
+.absolute.inset-y-0.right-0.w-8.z-10.bg-gradient-to-l.dark\:from-gray-800.from-gray-100,
+.absolute.inset-y-0.right-0.w-8.z-10.bg-gradient-to-l.dark\:from-gray-900.from-gray-50.group-hover\:from-gray-100.dark\:group-hover\:from-\[\#2A2B32\] {
   opacity: 0;
+}
+
+a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.hover\:bg-gray-100.dark\:hover\:bg-\[\#2A2B32\].cursor-pointer.break-all.bg-gray-100.dark\:bg-gray-800.pr-14.group,
+a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.hover\:bg-gray-100.dark\:hover\:bg-\[\#2A2B32\].cursor-pointer.break-all.bg-gray-50.hover\:pr-4.dark\:bg-gray-900.group {
+  margin: 0.25em 0;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.hover\:bg-gray-100.dark\:hover\:bg-\[\#2A2B32\].cursor-pointer.break-all.bg-gray-100.dark\:bg-gray-800.pr-14.group:hover,
+a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.hover\:bg-gray-100.dark\:hover\:bg-\[\#2A2B32\].cursor-pointer.break-all.bg-gray-50.hover\:pr-4.dark\:bg-gray-900.group:hover {
+  background-color: rgba(255, 255, 255, 0.37);
 }
 
 .text-gray-300 {
@@ -24,9 +38,11 @@ div#headlessui-dialog-panel-\:re\: {
 }
 
 /* selected chat tab */
-a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.cursor-pointer.break-all.pr-14.bg-gray-800.hover\:bg-gray-800.group {
+a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.cursor-pointer.break-all.pr-14.bg-gray-800.hover\:bg-gray-800.group,
+a.flex.py-3.px-3.items-center.gap-3.relative.rounded-md.hover\:bg-gray-100.dark\:hover\:bg-\[\#2A2B32\].cursor-pointer.break-all.bg-gray-100.dark\:bg-gray-800.pr-14.group {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
 }
 
 /* tab actions */
@@ -76,7 +92,7 @@ a.flex.px-3.min-h-\[44px\].py-1.items-center.gap-3.transition-colors.duration-20
 button#headlessui-menu-button-\:r9\::hover,
 button#headlessui-menu-button-\:rg\: {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: #DEA54B;
 }
 
 button#headlessui-menu-button-\:r9\: {
