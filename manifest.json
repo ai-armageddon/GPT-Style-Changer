@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "GPT-styles",
-  "version": "1.0.0",
-  "description": "Basic SCSS/CSS spice for chat.openai.com/chat",
+  "version": "1.6.9",
+  "description": "Basic SCSS/CSS spice for chat.openai.com",
   "icons": {
     "128": "icon.png"
   },
@@ -10,7 +10,6 @@
     {
       "matches": ["https://chat.openai.com/*"],
       "js": ["content.js"],
-      "js": ["keys.js"],
       "css": ["styles.css"],
       "run_at": "document_end"
     }
